@@ -271,7 +271,7 @@ backend/
 ├── main.go              # Punkt wejścia, routing
 ├── config.go            # Wczytywanie konfiguracji
 ├── config.json          # Plik konfiguracyjny
-├── models.go            # Struktury danych
+├── types.go            # Struktury danych
 ├── database.go          # Operacje na bazie danych
 ├── auth.go              # Generowanie i parsowanie JWT
 ├── middleware.go        # Middleware autentykacji
@@ -285,7 +285,7 @@ backend/
 
 - Hasła są hashowane używając bcrypt
 - Autentykacja oparta na JWT w cookie
-- Walidacja hasła (minimum 3 znaki)
+- Konfigurowalna walidacja hasła
 - Middleware sprawdzający uprawnienia
 - Ochrona przed banowaniem samego siebie przez administratora
 
