@@ -1,0 +1,24 @@
+{
+  "server": {
+    "port": "8080",
+    "host": ""
+  },
+  "database": {
+    "file": "./photomanager.db"
+  },
+  "jwt": {
+    "secret_key": "411357bd2975ae4f8387b0a786342e7ec6c87c0295a1ce6a4ee3d91f3a88453d34c6d923c83ee326319a424d96400327e6684cf64e99334c0b5d2a3531b2faf5",
+    "timeout_minutes": 15
+  },
+  "photos": {
+    "directory": "photos"
+  },
+  "admin": {
+    "default_login": "admin",
+    "default_password": "adminadmin"
+  },
+  "password": {
+    "mode": "no-validation"
+  }
+}
+
